@@ -1,6 +1,7 @@
 package net.Minetheground.TutorialMod;
 
 import com.mojang.logging.LogUtils;
+import net.Minetheground.TutorialMod.block.ModBlocks;
 import net.Minetheground.TutorialMod.item.Moditems;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -26,9 +27,11 @@ public class TutorialMod
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         Moditems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
+
 
 
 
