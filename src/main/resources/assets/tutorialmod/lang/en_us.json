@@ -3,4 +3,9 @@
   "item.tutorialmod.raw_ruby": "Raw Ruby",
   "itemGroup.tutorialtab": "Ruby Tutorial"
 
+  "block.tutorialmod.ruby_block": "Block of Ruby",
+  "block.tutorialmod.ruby_ore": "Ruby ore",
+  "block.tutorialmod.deepslate_ruby_block": "Deepslate ruby ore"
+
+
 }

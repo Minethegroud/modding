@@ -23,18 +23,20 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, TutorialMod.MOD_ID);
 
-    public static final RegistryObject<Block> RUBY_BLOCK = registerBlock("ruby_block",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModetab.TUTORIAL_TAB);
+    public static final RegistryObject<Block> RUBY_BLOCK = registerBlock("ruby_block" ,
+    () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+            .strength(6f).requiresCorrectToolForDrops()), ModCreativeModetab.TUTORIAL_TAB);
 
     public static final RegistryObject<Block> RUBY_ORE = registerBlock("ruby_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f).requiresCorrectToolForDrops(),
-                    UniformInt.of(3, 7)), ModCreativeModetab.TUTORIAL_TAB);
-    public static final RegistryObject<Block> DEEPSLATE_RUBY_ORE = registerBlock("deepslate_ruby_ore",
+                    UniformInt.of(3,7)), ModCreativeModetab.TUTORIAL_TAB);
+
+public static final RegistryObject<Block> DEEPSLATE_RUBY_ORE = registerBlock("deepslate_ruby_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f).requiresCorrectToolForDrops(),
-                    UniformInt.of(3, 7)), ModCreativeModetab.TUTORIAL_TAB);
+                    UniformInt.of(5,50)), ModCreativeModetab.TUTORIAL_TAB);
+
 
 
 
