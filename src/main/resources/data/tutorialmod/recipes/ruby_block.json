@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "#": {
-      "item": "minecraft:ruby"
+      "item": "tutorialmod:ruby"
     }
   },
   "pattern": [
@@ -11,6 +11,6 @@
     "###"
   ],
   "result": {
-    "item": "minecraft:ruby_block"
+    "item": "tutorialmod:ruby_block"
   }
 }

@@ -4,7 +4,7 @@
   "experience": 0.9,
   "group": "ruby",
   "ingredient": {
-    "item": "minecraft:raw_ruby"
+    "item": "tutorialmod:raw_ruby"
   },
-  "result": "minecraft:ruby"
+  "result": "tutorialmod:ruby"
 }
