@@ -1,6 +1,7 @@
 package net.Minetheground.TutorialMod.block;
 
 import net.Minetheground.TutorialMod.TutorialMod;
+import net.Minetheground.TutorialMod.block.custom.JumpyBlock;
 import net.Minetheground.TutorialMod.item.ModCreativeModetab;
 import net.Minetheground.TutorialMod.item.Moditems;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -36,6 +37,10 @@ public static final RegistryObject<Block> DEEPSLATE_RUBY_ORE = registerBlock("de
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f).requiresCorrectToolForDrops(),
                     UniformInt.of(5,50)), ModCreativeModetab.TUTORIAL_TAB);
+
+public static final RegistryObject<Block> Jumpy_BLock = registerBlock("deepslate_ruby_ore",
+            () -> new JumpyBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModetab.TUTORIAL_TAB);
 
 
 

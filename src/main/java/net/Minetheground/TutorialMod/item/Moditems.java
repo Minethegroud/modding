@@ -1,9 +1,11 @@
 package net.Minetheground.TutorialMod.item;
 
 import net.Minetheground.TutorialMod.TutorialMod;
-import net.minecraft.client.tutorial.Tutorial;
-import net.minecraft.world.item.CreativeModeTab;
+import net.Minetheground.TutorialMod.item.custom.EightBallItem;
+
+
 import net.minecraft.world.item.Item;
+
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -17,6 +19,9 @@ public class Moditems {
                     () -> new Item(new Item.Properties().tab(ModCreativeModetab.TUTORIAL_TAB)));
             public static final RegistryObject<Item> RAW_RUBY = ITEMS.register("raw_ruby" ,
                     () -> new Item(new Item.Properties().tab(ModCreativeModetab.TUTORIAL_TAB)));
+
+public static final RegistryObject<Item> EIGHT_BALL = ITEMS.register("eight_ball" ,
+                    () -> new EightBallItem(new Item.Properties().tab(ModCreativeModetab.TUTORIAL_TAB).stacksTo(1)));
 
 
 
