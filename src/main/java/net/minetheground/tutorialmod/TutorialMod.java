@@ -1,8 +1,8 @@
-package net.Minetheground.TutorialMod;
+package net.minetheground.tutorialmod;
 
 import com.mojang.logging.LogUtils;
-import net.Minetheground.TutorialMod.block.ModBlocks;
-import net.Minetheground.TutorialMod.item.Moditems;
+import net.minetheground.tutorialmod.block.ModBlocks;
+import net.minetheground.tutorialmod.item.Moditems;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;

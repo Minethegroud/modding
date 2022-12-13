@@ -1,4 +1,4 @@
-package net.Minetheground.TutorialMod.item.custom;
+package net.minetheground.tutorialmod.item.custom;
 
 import net.minecraft.network.chat.Component;
 import net.minecraft.util.RandomSource;

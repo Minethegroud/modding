@@ -1,7 +1,7 @@
-package net.Minetheground.TutorialMod.item;
+package net.minetheground.tutorialmod.item;
 
-import net.Minetheground.TutorialMod.TutorialMod;
-import net.Minetheground.TutorialMod.item.custom.EightBallItem;
+import net.minetheground.tutorialmod.TutorialMod;
+import net.minetheground.tutorialmod.item.custom.EightBallItem;
 
 
 import net.minecraft.world.item.Item;

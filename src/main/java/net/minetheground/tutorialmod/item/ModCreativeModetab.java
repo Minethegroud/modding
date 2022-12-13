@@ -1,4 +1,4 @@
-package net.Minetheground.TutorialMod.item;
+package net.minetheground.tutorialmod.item;
 
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
