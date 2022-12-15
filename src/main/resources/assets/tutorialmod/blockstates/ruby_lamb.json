@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "lit=true": {"model":  "tutorialmod:block/ruby_lamb_on"},
+    "lit=false": {"model":  "tutorialmod:block/ruby_lamb_off"}
+  }
+}

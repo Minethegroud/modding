@@ -3,11 +3,16 @@
   "item.tutorialmod.raw_ruby": "Raw Ruby",
   "itemGroup.tutorialtab": "Ruby Tutorial",
   "item.tutorialmod.eight_ball": "Eight ball",
+"item.tutorialmod.bluebrry": "Blueberry",
+"item.tutorialmod.blueberry_seed": "Blueberry Seeds",
 
   "block.tutorialmod.ruby_block": "Block of Ruby",
-  "block.tutorialmod.jumpy_block": "Jumpy Block"
+  "block.tutorialmod.ruby_lamb": "Ruby lamb",
+  "block.tutorialmod.jumpy_block": "Jumpy Block",
+  "item.tutorialmod.ruby_pickaxe": "Ruby Pickaxe",
   "block.tutorialmod.ruby_ore": "Ruby ore",
   "block.tutorialmod.deepslate_ruby_ore": "Deepslate ruby ore"
+  "block.tutorialmod.blueberry": "Blueberry Crop"
 
 
 }

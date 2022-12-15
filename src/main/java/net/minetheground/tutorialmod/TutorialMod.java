@@ -1,6 +1,8 @@
 package net.minetheground.tutorialmod;
 
 import com.mojang.logging.LogUtils;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minetheground.tutorialmod.block.ModBlocks;
 import net.minetheground.tutorialmod.item.Moditems;
 import net.minecraftforge.common.MinecraftForge;
@@ -53,7 +55,7 @@ public class TutorialMod
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event)
         {
-
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.BLUEBERRY_CROP.get(), RenderType.cutout());
         }
     }
 }

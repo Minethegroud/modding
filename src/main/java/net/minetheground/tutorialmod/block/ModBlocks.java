@@ -1,7 +1,10 @@
 package net.minetheground.tutorialmod.block;
 
+import net.minecraft.world.level.block.Blocks;
 import net.minetheground.tutorialmod.TutorialMod;
+import net.minetheground.tutorialmod.block.custom.BlueberryCropBlock;
 import net.minetheground.tutorialmod.block.custom.JumpyBlock;
+import net.minetheground.tutorialmod.block.custom.RubyLambBlock;
 import net.minetheground.tutorialmod.item.ModCreativeModetab;
 import net.minetheground.tutorialmod.item.Moditems;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -38,8 +41,15 @@ public static final RegistryObject<Block> DEEPSLATE_RUBY_ORE = registerBlock("de
                     .strength(6f).requiresCorrectToolForDrops(),
                     UniformInt.of(5,50)), ModCreativeModetab.TUTORIAL_TAB);
 
+public static final RegistryObject<Block> RUBY_LAMB = registerBlock("ruby_lamb",
+            () -> new RubyLambBlock(BlockBehaviour.Properties.of(Material.GLASS)
+                    .lightLevel(state -> state.getValue(RubyLambBlock.LIT) ? 15 : 0)),ModCreativeModetab.TUTORIAL_TAB);
+
 public static final RegistryObject<Block> Jumpy_Block = registerBlock("jumpy_block",
             () -> new JumpyBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModetab.TUTORIAL_TAB);
+public static final RegistryObject<Block> BLUEBERRY_CROP = BLOCKS.register("blueberry_crop",
+            () -> new BlueberryCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT)
                     .strength(6f).requiresCorrectToolForDrops()), ModCreativeModetab.TUTORIAL_TAB);
 
 
